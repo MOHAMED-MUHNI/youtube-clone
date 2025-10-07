@@ -1,11 +1,41 @@
 .sidebar {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    top: 55px;
-    width: 70px;
-    background-color: rgb(253, 254, 254);
-    
-    border-right: 1px solid rgb(204, 204, 204);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 55px;
+  width: 72px;
+  background-color: #f8f8f8;
+  z-index: 200;
+  padding-top: 8px;
+  
+  
+}
+
+.sidebar-link {
+  height: 74px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  flex-direction: column;
+
+ 
+  
+}
+
+.sidebar-link:hover {
+  background-color: rgb(176, 176, 176);
+  
+}
+
+.sidebar-link img{
+    height: 24px;
+    margin-bottom: 5px;
+
+}
+
+.sidebar-link div{
+    font-family: Roboto,Arial;
+    font-size: 10px;
 
 }
